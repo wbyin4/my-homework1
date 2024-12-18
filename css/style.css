@@ -15,4 +15,8 @@ nav ul {
     padding: 0;
     justify-content: center;
 }
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
 
