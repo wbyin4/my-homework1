@@ -19,4 +19,8 @@ nav ul li {
     display: inline;
     margin: 0 10px;
 }
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
 
