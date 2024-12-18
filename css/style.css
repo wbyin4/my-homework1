@@ -32,3 +32,10 @@ nav ul li a:active {
 nav ul li a:focus {
     outline: 2px solid #fafe83;
 }
+main {
+    padding: 20px;
+}
+section img {
+    max-width: 100%;
+    height: auto;
+}
