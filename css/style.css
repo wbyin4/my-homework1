@@ -46,3 +46,11 @@ form {
     background: rgb(255, 255, 255);
     border-radius: 10px;
 }
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+form input, form textarea, form button {
+    width: 100%;
+    margin-bottom: 10px;
+}
