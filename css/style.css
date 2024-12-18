@@ -76,3 +76,46 @@ img{
     height: 400px;
     border-radius: 10px;
 }
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+}
+.hamburger .line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+    border-radius: 2px;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    nav ul.nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #33a05d;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    nav ul.nav-links.active {
+        display: flex;
+    }
+
+    nav ul.nav-links li {
+        margin: 10px 0;
+    }
+}
+
