@@ -66,3 +66,7 @@ footer {
 main article{
     text-align: center;
 }
+main h2{
+    color: rgb(31, 168, 77);
+    padding: 10px;
+}
