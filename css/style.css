@@ -23,4 +23,6 @@ nav ul li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
-
+nav ul li a:hover {
+    background-color: #84bd8f; 
+}
