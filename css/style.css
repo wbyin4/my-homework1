@@ -29,3 +29,6 @@ nav ul li a:hover {
 nav ul li a:active {
     background-color: #84bd8f;
 }
+nav ul li a:focus {
+    outline: 2px solid #fafe83;
+}
